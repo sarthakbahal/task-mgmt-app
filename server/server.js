@@ -12,6 +12,8 @@ connectDB();
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:5173',
+  'https://task-mgmt-app.vercel.app',
+  'https://task-mgmt-4vs4uvz3k-sarthak-bahals-projects.vercel.app',
   process.env.FRONTEND_URL
 ].filter(Boolean);
 
